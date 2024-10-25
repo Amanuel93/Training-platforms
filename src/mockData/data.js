@@ -11,12 +11,25 @@ export const NavbarMenu = [
   },
   {
     id: 4,
-    title: "About us",
+    title: "About",
     link: "#Banner",
   },
   {
     id: 5,
     title: "Contact us",
     link: "#Footer",
+  },
+];
+
+export const NavbarMenuResponsive = [
+  {
+    id: 6,
+    title: "Signup",
+    link: "/Signup",
+  },
+  {
+    id: 7,
+    title: "Login",
+    link: "/Login",
   },
 ];

@@ -45,8 +45,8 @@ const WhyChooseData = [
     bgColor: "#fe6baa",
     delay: 0.9,
   },
-
 ];
+
 const WhyChooseUs = () => {
   return (
     <div className="bg-[#f9fafc]" id="Benefits">
@@ -62,12 +62,13 @@ const WhyChooseUs = () => {
         </div>
         {/* cards section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {WhyChooseData.map((item) => {
+          {WhyChooseData.map((item,index) => {
             return (
               <motion.div
                 variants={SlideLeft(item.delay)}
                 initial="hidden"
                 whileInView={"visible"}
+                key={index}
                 className="space-y-4 p-6 rounded-xl shadow-black shadow-2xl"
               >
                 {/* icon section */}

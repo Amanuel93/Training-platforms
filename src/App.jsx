@@ -23,7 +23,7 @@ const BannerData = {
 
 const BannerData2 = {
   image: Img2,
-  tag: "CUSTOMIZE WITH YOUR SCHEDULE",
+  tag: "TAILOR IT TO YOUR TIMETABLE",
   title: "Experienced and Qualified Trainers Ready to Support Your Learning Journey",
   subtitle:
     "Keep track of our trainees’ training and assessment schedules to ensure you never miss a session. Experience the leading online scheduling system that offers easy accessibility. This platform is designed to improve the training experience for post office trainees.",

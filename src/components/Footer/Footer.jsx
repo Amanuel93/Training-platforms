@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import { MdComputer } from "react-icons/md";
 import logo from '../../assets/ethiopost_logo.jfif'
 import { FaRegCopyright } from "react-icons/fa6";
 
@@ -15,7 +14,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   return (
     // <div style={FooterBg} className="rounded-t-3xl">
-    <div className="bg-indigo-950" id="Footer">
+    <div className="bg-indigo-900" id="Footer">
       <div className="bg-primary/5">
         <div className="container">
           <div className="grid md:grid-cols-4 md:gap-4 py-5 border-t-2 border-gray-300/10 text-white">
@@ -23,10 +22,10 @@ const Footer = () => {
             <div className="py-8 px-4 space-y-4">
               <div className="text-2xl flex items-center gap-2 font-bold uppercase">
                 {/* <MdComputer className="text-secondary text-4xl" /> */}
-                <img src={logo} alt="" srcset="" className="w-14 h-14 rounded-full"/>
+                <img src={logo}  className="w-14 h-14 rounded-full"/>
                 <p className="">POETS</p>
               </div>
-              <p>
+              <p className="">
               Our innovative training platform for the Post Office enhances skills, 
               boosts productivity, and fosters a culture of continuous learning. 
               Together, we're building a brighter future for our team!.
@@ -133,15 +132,17 @@ const Footer = () => {
           </div>
           {/* copyright section  */}
           <div className="mt-8">
-            <div className="flex justify-center items-center py-6 border-t-2 border-gray-800/10">
+            <div className="flex flex-col justify-center items-center py-6 border-t-2 border-gray-800/10">
               {/* <span className="text-sm text-white">
                 {" "}
                 <FaRegCopyright />copyright 2024 Ethiopost Human Resource Department
               </span> */}
               <div className="space-x-1 flex items-center text-white font-thin text-sm">
+              <span>Copyright</span>
                 <FaRegCopyright /> 
-                <span>All rights reserved 2024 Ethiopost HR Department</span>
+                <span>2024 Etiopost</span>
               </div>
+              <h1 className="text-white font-thin text-sm">Powered By Ethiopost HR Department</h1>
             </div>
           </div>
         </div>
